@@ -1,14 +1,15 @@
 # Implemention LSTM example for MNIST data with Keras (Tensorflow backend)
 
-### [Keras](https://github.com/fchollet/keras) is high-level neural networks API for Tensorflow, Theano.
-### Dependencies: keras 2.0, tensorflow 1.0 (sudo pip install tensorflow, tensorflow-gpu(GPU only), keras)
-#### Input: 28 rows of 28x1 fixel vector
-#### Output: 10 classes
-### Usage
-#### Training: python mnist_lstm.py
-#### Tensorboard: tensorboard --logdir=/tmp/keras/MNIST
+### 1. [Keras](https://github.com/fchollet/keras) is high-level neural networks API for Tensorflow, Theano.
+### 2. Dependencies: keras 2.0, tensorflow 1.0 (sudo pip install tensorflow, tensorflow-gpu(GPU only), keras)
+#### - Input: 28 rows of 28x1 fixel vector
+#### - Output: 10 classes
+### 3. Usage
+#### - Training: python mnist_lstm.py
+#### - Tensorboard: tensorboard --logdir=/tmp/keras/MNIST
 
-'''shell
+### 4. Result
+```shell
 $ python mnist_lstm.py
 
 Epoch 1/10
@@ -35,7 +36,8 @@ Model saved in model/keras/lstm
 training time: 280.585701942
 predict time: 5.18135809898
 accuracy:  98.5
-'''
+```
 
+### 5. Tensorboard
 ![graph](graph.PNG)
 ![loss](loss.PNG)
